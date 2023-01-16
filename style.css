@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400;700&family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,900;1,900&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    font-family: 'agency fb';
+    overflow: hidden;
+}
+
+.stripes {
+    position: fixed;
+    width: 100%;
+}
+
+.s-one {
+    position: absolute;
+    width: .5px;
+    height: 100vh;
+    background: #555555;
+    left: 4%;
+}
+
+.s-two {
+    position: absolute;
+    width: .5px;
+    height: 100vh;
+    background: #555555;
+    left: 50%;
+}
+
+.s-three {
+    position: absolute;
+    width: .5px;
+    height: 100vh;
+    background: #555555;
+    left: 96%;
+}
+
+.bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .3;
+}
+
+.bg-text h1 {
+    font-size: 300px;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 3px #444;
+    text-transform: uppercase;
+}
+
+.img img {
+    width: 67%;
+    opacity: 0;
+}
+
+.img {
+    position: fixed;
+    z-index: 1;
+    top: -23%;
+    right: -444px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar .media li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.navbar .media li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar .menu i {
+    padding-right: 20px;
+}
+
+.watchnow {
+    position: absolute;
+    top: 55%;
+    right: 12%;
+    transform: translateY(-40%);
+    z-index: 2;
+    background: #bb0000;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.watchnow a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 1px;
+}
+
+.fa-play {
+    color: #fff;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.bottomnav {
+    position: absolute;
+    bottom: 22%;
+    right: 55%;
+    z-index: 1;
+}
+
+.bottomnav ul {
+    list-style: none;
+}
+
+.bottomnav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 20px 20px 20px 0;
+    color: #fff;
+    background: #2a2a2a;
+}
+
+.blocks {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 140px;
+    color: #fff;
+    font-weight: 600;
+    color: #fff;
+    z-index: 1;
+}
+
+.block-1,
+.block-4 {
+    color: #bb0000;
+    z-index: 1 d DZ;
+}
