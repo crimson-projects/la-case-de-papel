@@ -1,6 +1,6 @@
 <div align="center">
 
-# "La Case de papel" Landing Page with Gsap | Crimson
+# "La Casa de papel" Landing Page with Gsap | Crimson
 
 <img src="admin/base.png">
 
